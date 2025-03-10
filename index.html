@@ -1,62 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor Afsha Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
 </head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">MyPortfolio</div>
-      <ul class="nav-links">
+<body> 
+  <nav>
+    <div class="navbar">
+      <ul class="menu">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Resume</a></li>
+        <li><a href ="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <button id="theme-toggle">🌙</button>
-    </nav>
-  </header>
-
-  <section id="home">
-    <h1>Welcome to My Portfolio</h1>
-    <p>Creative solutions for your web needs.</p>
-  </section>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hi, I'm a web developer with expertise in modern web technologies...</p>
-  </section>
-
-  <section id="portfolio">
-    <h2>My Work</h2>
-    <div class="carousel">
-      <div class="carousel-item active">
-        <img src="assets/project1.png" alt="Project 1">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/project2.png" alt="Project 2">
+    </div>
+  </nav>
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Noor Afsha</div>
+        <div class="text-three">Software Developer</div>
       </div>
     </div>
-    <button class="carousel-control prev">❮</button>
-    <button class="carousel-control next">❯</button>
   </section>
+          <section class="about" id="about">
+            <div class="content">
+              <div class="title"><span>About Me</span></div>
+              <div class="about-details">
+                <div class="left">
+                  <p><strong>Name:</strong> Noor Afsha</p>
+                  <p><strong>Job Role:</strong> Software Developer</p>
+                  <p><strong>Experience:</strong> Fresher</p>
+                  <p><strong>Address:</strong> Kolkata,West Bengal</p>
+                  <div class="profile-picture">
+                    <img src="dp.jpg" alt="Profile Picture">
+                  </div>
+                  <div class="buttons">
+                    <a href="https://www.linkedin.com/in/noor afsha/" target="_blank">
+                      <button class="linkedin-btn">LinkedIn</button>
+                    </a>
+                    <a href="https://github.com/noorafsha08" target="_blank">
+                      <button class="github-btn">Github</button>
+                    </a>
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="topic"></div>
+                  <p>With experience in software and web development, I have contributed to various phases of product delivery, including analysis, development, testing, and deployment. My expertise includes working with technologies such as Java, React, Node.js, HTML, CSS, JavaScript and MongoDB. I excel in creating dynamic, responsive web applications and translating complex technical concepts into clear documentation. Additionally, I have a proven ability to collaborate effectively with cross-functional teams and meet project deadlines under pressure.</p>
+                  <ul class="details-list">
+                    <li><strong>Domain:</strong> Software Development</li>
+                    <li><strong>Education:</strong> Masters in Computer Science</li>
+                    <li><strong>Programming Languages:</strong> Python, Java, C, C++, SQL</li>
+                    <li><strong>Web Technologies:</strong> React, Angular, JavaScript, Node.js, HTML5, CSS3, Django, jQuery, REST API Design, Bootstrap, Spring 
+                      MVC, Spring Boot, UI/UX Design </li>
+                    <li><strong>Cloud & Infrastructure:</strong>  AWS, Kafka, Kubernetes, Docker, API Gateway </li>
+                    <li><strong>Database Systems:</strong> MongoDB, MySQL, PostgreSQL, SQL server, Relational Databases </li>
+                    <li><strong>Tools & Technologies:</strong> Git, Jenkins, CI/CD Pipeline, Agile, Jira, Selenium, JUnit5, Test-Driven Development (TDD), Agile, Scrum, 
+                      Microsoft Office Suite </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>        
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form id="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>Resume</span></div>
+      <div class="description">
+        Passionate Computer Science undergraduate student skilled in Java, Python, React, HTML, JavaScript, CSS, and Node.js, with expertise in software development, web design, and technical documentation, committed to delivering innovative solutions and collaborating effectively.
+      </div>
+  
+      <div class="experience-section">
+        <div class="subheading">Experience</div>
+        <div class="experience-boxes">
+          <div class="experience-box">
+            <h3>Software Development Intern</h3>
+            <h4> Jukshio</h4>
+            <p>January 2023 – July 2023</p>
+            <ul>
+              <li>Developed responsive front-end components using React.js, improving user experience through seamless UI/UX integration.</li>
+              <li>Implemented automation solutions with Java, optimizing system performance through SQL tuning and process documentation.</li>
+              <li>Applied agile methodologies in close collaboration with Product Owners to improve product features and enhance customer 
+                experiences.</li>
+            </ul>
+          </div>
+  
+          <div class="experience-box">
+            <h3>Web Development and Designing Intern</h3>
+            <h4>Oasis Infobyte</h4>
+            <p>May 2022 – December 2022</p>
+            <ul>
+              <li>Translated UI designs into responsive web pages using HTML, CSS, and JavaScript, ensuring cross-browser compatibility.</li>
+              <li>Integrated dynamic features and animations, improving user experience and accessibility.</li>
+              <li>Actively collaborated with a cross-functional team, addressing code quality issues, and enhancing software stability.</li>
+            </ul>
+          </div>
+  
+          <div class="experience-box">
+            <h3> Back-end Development Intern</h3>
+            <h4>Immensphere</h4>
+            <p>January 2022 – April 2022</p>
+            <ul>
+              <li>Developed MongoDB database schema for efficient data storage, supporting seamless data interactions between the front-end and 
+                back-end systems.</li>
+              <li>Created Node.js scripts to handle server communication and content serving, ensuring the reliability of back-end processes.</li>
+              <li>Implemented unit tests and participated in debugging and troubleshooting technical issues, adhering to industry best practices for 
+                software quality.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="education-section">
+        <div class="subheading">Education</div>
+        <div class="education-boxes">
+  
+  
+          <div class="education-box">
+            <h3>Bachelor of Technology (Computer Science Engineering)</h3>
+            <p>Dr. Sudhir Chandra Sur Institute of Technology and Sports Complex</p>
+            <p>March 2021 – July 2025 | Hyderabad, India</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="download-cv">
+        <a href="https://drive.google.com/file/d/1QW18eNcapRn54BZQ7q6zioun0DAj8Odn/view?usp=sharing" download>
+          <button>Download CV</button>
+        </a>
+      </div>
+    </div>
   </section>
+  
 
-  <footer>
-    <p>© 2024 MyPortfolio. All rights reserved.</p>
-  </footer>
+  <section class="projects" id="projects"> 
+    <div class="content">
+      <div class="title">
+        <span>Projects</span>
+      </div>
+      
+      <div class="project-boxes">
+        <div class="project-box">
+          <img src="p1.png" alt="Interactive Campus Map (ReactJS, Leaflet)">
+          <h3> Interactive Campus Map (ReactJS, Leaflet)</h3>
+          <ul>
+            <li>Designed and developed an interactive campus map using React.js, Leaflet, HTML/CSS, and Node, which received a 95% 
+              satisfaction rate from users. Integrated Event Sourcing for real-time updates, enhancing scalability and performance of the map’s user experience. Emphasized high code quality by following Test-Driven Development practices and improving software maintainability.</li>
+          </ul>
+        </div>
+        
+        <div class="project-box">
+          <img src="p2.jpeg" alt="From Theory to Implementation: An Application of Graph Algorithms to Map Construction & Traversal (Java, Algorithms)">
+          <h3> From Theory to Implementation: An Application of Graph Algorithms to Map Construction & Traversal (Java, Algorithms)</h3>
+          <ul>
+            <li>Applied graph algorithms such as Prim’s, Kruskal’s, Dijkstra’s to optimize traversal cost using directed links, improving accuracy by 
+              92%. Reduced processing time by 30% using optimal data structures like priority queues and binary trees for enhanced algorithm 
+              efficiency. Developed and tested algorithms with real-world data, addressing both technical issues and improving system performance. </li>
+          </ul>
+        </div>
+        
+        <div class="project-box">
+          <img src="p3.png" alt="Age and Gender Classification using CNN (Python, OpenCV, Tensorflow, Keras)">
+          <h3>Age and Gender Classification using CNN (Python, OpenCV, Tensorflow, Keras)</h3>
+          <ul>
+            <li>Developed a convolutional neural network-based model with the IMDB-WIKI dataset for classifying gender and
+              age through live video frames in real time using transfer learning on the fully connected layers.</li>
+        </div>
+      </div>
+      
+      <div class="view-projects">
+        <a href="https://github.com/RishikaGoud" target="_blank" class="btn-my-works">My works</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact</span></div>
+      <div class="icons">
+        <div class="icon">
+          <a href="tel:+918961261459" target="_blank"><i class="fas fa-phone"></i></a>
+          <span></span>
+        </div>
+        <div class="icon">
+          <a href="mailto:afshanoor0812@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+          <span>afshanoor0812@gmail.com</span>
+        </div>
+        <div class="icon">
+          <a href="https://www.linkedin.com/in/noor-afsha-06612a216/"><i class="fab fa-linkedin"></i></a>
+          <span>NoorAfsha</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <script src="main.js"></script>
 </body>
 </html>
